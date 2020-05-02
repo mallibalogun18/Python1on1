@@ -30,3 +30,13 @@ EVERY
 DAY!!!!!!!!!!!!!!"""
 
 print(splitString)
+
+#quick exercise
+#Write a program that will produce the following output. All the text should appear in your program's output
+number1 = 'Number 1'
+number2 = 'Number 2'
+theLarch = 'The Larch'
+theHorseChestnut = 'The Horse Chestnut'
+
+print(number1+'\t'+theLarch)
+print(number2+'\t'+theHorseChestnut)
