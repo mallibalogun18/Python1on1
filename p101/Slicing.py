@@ -55,3 +55,26 @@ print(backwards)
 forward = alphabet[24:26:-1] # this will not work because the start int is lesser then the stop int and the step
 # can't go backwards '-1'
 print(forward)
+print()
+#CHALLENGE
+# Using the letters string from the alphabet, add some code to create the following slices
+letters = 'abcdefghijklmnopqrstuvwxyz'
+print('Create a slice that produces the characters qpo')
+qpo = letters[16:13:-1]
+print(qpo)
+print()
+print('Slice the string to produce edcba')
+edcba = letters[4::-1]
+edcba2 = letters[-22::-1]
+print(edcba)
+print(edcba2)
+print()
+print('Slice the string to produce the last 8 characters in reverse order')
+last8characters = letters[:17:-1]
+last8characters2 = letters[:-9:-1]
+print(last8characters)
+print(last8characters2)
+
+
+
+
