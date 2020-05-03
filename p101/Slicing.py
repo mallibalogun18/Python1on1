@@ -48,3 +48,10 @@ print(seperators)
 print()
 values = "".join(char if char not in seperators else " " for char in num).split()
 print([int(val) for val in values])
+
+# slicing backwards with negative integers * always make sure that the start value is greater then the stop value
+backwards = alphabet[25::-1] # zyxwvutsrqponmlkjihgfedcba
+print(backwards)
+forward = alphabet[24:26:-1] # this will not work because the start int is lesser then the stop int and the step
+# can't go backwards '-1'
+print(forward)
