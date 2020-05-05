@@ -60,6 +60,8 @@ print()
 print("Pi is approximately {0:12}".format(22/7))
 print("Pi is approximately {0:12f}".format(22/7))
 print("Pi is approximately {0:12.50f}".format(22/7))
-
-
-
+print()
+#  quick introduction to f string
+age = 21
+name = 'Billy'
+print(name+f" is {age} years old")
