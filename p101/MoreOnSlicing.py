@@ -27,9 +27,6 @@ print(my_list[-7:])  # [3, 4, 5, 6, 7, 8, 9]
 # so if we wanted to output every second value of the my_list variable starting from the index at 1
 print()
 print("The variable my_list values second value starting at index 1 are {0}".format(my_list[1::2]))
-
-
-
 # lets apply the same principles when using strings
 # when programming its always good to say things out loud and visualize a
 # string in an index format
@@ -62,3 +59,14 @@ print(my_string[-27::4])  # MTWTFSS
 # -27, but I think it's always a great exercise to think through a process when you first begin programming
 # or learning a new language. Especially when you ready for job interviews. You want to be able to exaplain what you're
 # doing. Hope this helps somebody.
+print()
+# step also allows to print a variable value backwards
+url = 'https://www.google.com'
+print("The url {0} backwards is {1}".format(url,url[::-1]))
+print(my_list[::-1])
+print()
+# get the top domain from the url
+# you can do this in so many ways.
+print(url[len(url)-4:])
+print(url[-4:])
+print(url[12:-4])
