@@ -27,3 +27,32 @@ elif 7 <=num_select <= 9:
     print('The number you selected is between 7 and 9')
 else:
     print('Your selection was not a number between 0-9')
+
+# IF-ELIF exercises
+# Write a small program that assigns the name of 2 trees to 2 variables, called tree1 and tree2 If the values of the
+# 2 variables are equal, print the message 'The trees are the same', otherwise print 'The trees are different'. This
+# exercise system doesn't allow input to be used, so don't use input on lines 1 and 2 - just enter your text inside
+# the quote for the trees.
+tree1 = 'Aspen'
+tree2 = 'Hawthorn'
+
+# add the code to compare the trees
+if tree1 == tree2:
+    print('The trees are the same')
+else:
+    print('The trees are different')
+
+print()
+# Write a small program that assigns the value 5 to one variable called x and value 7 to a variable called y. Use the
+# if statements to compare the values and print out 'x is greater than y' if x is greated, or 'x is smaller than y'
+# +
+# if y is greater, and if x equals y, print out 'x equals y'.
+
+x = 5
+y = 7
+if x > y:
+    print('x is greater than y')
+elif x < y:
+    print('x is smaller than y')
+elif x == y:
+    print('x equals y')
